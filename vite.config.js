@@ -7,5 +7,5 @@ dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 export default defineConfig({
   plugins: [react()],
-  root: 'frontend'
+  root: 'frontend',
 });
